@@ -30,4 +30,4 @@ bot.on('message', message=>{
     }
 })
 
-bot.login('ODcyOTA0NTQ0OTk5MzM4MDg0.YQwptQ.Tha-FF3OhlOVCpqOVPFk3yva4HE');
+bot.login(process.env.token);
